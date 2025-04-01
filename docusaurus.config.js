@@ -4,61 +4,61 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from "prism-react-renderer";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Welcome to by Page',
-  tagline: 'This page is built with Docusaurus.',
-  favicon: 'img/favicon.ico',
+  title: "Welcome to by Page",
+  tagline: "This page is built with Docusaurus.",
+  favicon: "img/favicon.ico",
 
-  url: 'https://kenkwok0216.github.io', // Your GitHub Pages URL
-  baseUrl: '/BlogTest/', // The repository name, preceded by a slash
-  organizationName: 'kenkwok0216', // Your GitHub username
-  projectName: 'BlogTest', // Your repository name
-  deploymentBranch: "gh-pages", // Deployment branch for GitHub Pages
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  url: "https://zoetanghk852.github.io", // Your GitHub Pages URL
+  baseUrl: "/try-ghpage/", // The repository name, preceded by a slash
+  organizationName: "zoetanghk852", // Your GitHub username
+  projectName: "try-ghpage", // Your repository name
+  deploymentBranch: "try-ghpage", // Deployment branch for GitHub Pages
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
-            //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           feedOptions: {
-            type: ['rss', 'atom'],
+            type: ["rss", "atom"],
             xslt: true,
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
-            //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          onInlineTags: "warn",
+          onInlineAuthors: "warn",
+          onUntruncatedBlogPosts: "warn",
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       }),
     ],
@@ -68,48 +68,48 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: 'Welcome to our Tutorial',
+        title: "Welcome to our Tutorial",
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: "My Site Logo",
+          src: "img/logo.svg",
         },
         items: [
           {
             //type: 'docSidebar',
-            sidebarId: 'DocusaurusSidebar',
-            position: 'left',
-            label: 'Docusaurus',
-			to: '/docs/Docusaurus/Intro',
-          },          
-		  {
+            sidebarId: "DocusaurusSidebar",
+            position: "left",
+            label: "Docusaurus",
+            to: "/docs/Docusaurus/Intro",
+          },
+          {
             //type: 'docSidebar',
-            sidebarId: 'MySQLSidebar',
-            position: 'left',
-            label: 'MySQL',
-			to: '/docs/MySQL/Setup-via-Linux',
+            sidebarId: "MySQLSidebar",
+            position: "left",
+            label: "MySQL",
+            to: "/docs/MySQL/Setup-via-Linux",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Docs',
+            title: "Docs",
             items: [
               {
-                label: 'Docusaurus Tutorial',
-                to: '/docs/Docusaurus/Intro',
+                label: "Docusaurus Tutorial",
+                to: "/docs/Docusaurus/Intro",
               },
             ],
           },
           {
-            title: 'More',
+            title: "More",
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/kenkwok0216',
+                label: "GitHub",
+                href: "https://github.com/kenkwok0216",
               },
             ],
           },
