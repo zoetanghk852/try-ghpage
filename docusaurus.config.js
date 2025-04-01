@@ -83,13 +83,13 @@ const config = {
             label: "Docusaurus",
             to: "/docs/Docusaurus/Intro",
           },
-          {
-            //type: 'docSidebar',
-            sidebarId: "MySQLSidebar",
-            position: "left",
-            label: "MySQL",
-            to: "/docs/MySQL/Setup-via-Linux",
-          },
+          // {
+          //   //type: 'docSidebar',
+          //   sidebarId: "MySQLSidebar",
+          //   position: "left",
+          //   label: "MySQL",
+          //   to: "/docs/MySQL/Setup-via-Linux",
+          // },
         ],
       },
       footer: {
